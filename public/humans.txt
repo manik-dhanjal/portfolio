@@ -1,39 +1,42 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+   /\  /\
+  / /\/ /
+ / / / / /\
+/_/ /_/ /__\
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+Software Engineer
 
-Hamish Williams
-Hand crafted design & web development
+Manik Singh Dhanjal
+Software engineer and Solutions Architect
 
-Design tools:
-Figma
-Photoshop
-Blender
+Engineering Tools:
+Git, VsCode, Kubernetes, Docker
 
 twitter.com/hamishmw
-github.com/hamishmw
+github.com/manik-dhanjal
 
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY
 
+Kafka
+Nestjs
+C++
+Python
+AI/ML
 React
-Remix
 Three.js
-Framer Motion
+Angular
+
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS
 
 Gotham
 IPA Gothic Regular
-Hiragino Kaku Gothic W8
+Gurmukhi MN

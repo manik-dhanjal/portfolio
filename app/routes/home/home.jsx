@@ -9,6 +9,13 @@ import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/slice-app.jpg';
 import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
+import shaliniNarayanan from '~/assets/shalini-narayanan-desktop.png';
+import shaliniNarayananLarge from '~/assets/shalini-narayanan-desktop-large.png';
+import shaliniNarayananPlaceholder from '~/assets/shalini-narayanan-desktop-placeholder.jpg';
+import meswakLogin from '~/assets/meswak-login.jpeg';
+import meswakViewSurvey from '~/assets/meswak-view-survey.jpeg';
+import thinkinghatzzzDesktopLarge from '~/assets/thinkinghatzzz-desktop-large.png';
+import thinkinghatzzzDesktop from '~/assets/thinkinghatzz-desktop.png';
 import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
 import { Footer } from '~/components/footer';
 import { baseMeta } from '~/utils/meta';
@@ -41,8 +48,8 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer + Developer',
-    description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
+    title: 'Engineer + Designer',
+    description: `Building portfolio of ${config.name} — a software engineer working on web & mobile apps with a focus on motion, experience design, and scalability.`,
   });
 };
 
@@ -103,17 +110,17 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Dr. Shalini Narayanan's Portfolio"
+        description="Design and development of a portfolio website for Dr. Shalini Narayanan, a former Indian Information Service officer."
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Dr. Shalini Narayanan’s portfolio website',
           textures: [
             {
-              srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
-              placeholder: sprTexturePlaceholder,
+              srcSet: `${shaliniNarayanan} 1280w, ${shaliniNarayananLarge} 2560w`,
+              placeholder: shaliniNarayananPlaceholder,
             },
           ],
         }}
@@ -124,20 +131,20 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="Meswak Survey App"
+        description="A role-based survey app for collecting customer feedback. Surveyors login to conduct surveys; admins manage data and download CSV reports. Includes surveyor registration for easy field management."
+        buttonText="Download app"
+        buttonLink="https://gamestack.manik-dhanjal.com"
         model={{
           type: 'phone',
           alt: 'App login screen',
           textures: [
             {
-              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
+              srcSet: `${meswakLogin} 375w, ${meswakLogin} 750w`,
               placeholder: gamestackTexturePlaceholder,
             },
             {
-              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
+              srcSet: `${meswakViewSurvey} 375w, ${meswakViewSurvey} 750w`,
               placeholder: gamestackTexture2Placeholder,
             },
           ],
@@ -148,8 +155,8 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Thinkinghatzzz"
+        description="A modern, responsive portfolio website for ThinkingHatzz built with WordPress and Elementor, enabling easy content updates and effectively showcasing the agency’s services and clients."
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
@@ -157,7 +164,7 @@ export const Home = () => {
           alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
+              srcSet: `${thinkinghatzzzDesktop} 1280w, ${thinkinghatzzzDesktopLarge} 1920w`,
               placeholder: sliceTexturePlaceholder,
             },
           ],

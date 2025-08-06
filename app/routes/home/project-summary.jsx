@@ -12,6 +12,7 @@ import { Suspense, lazy, useState } from 'react';
 import { cssProps, media } from '~/utils/style';
 import { useHydrated } from '~/hooks/useHydrated';
 import katakana from './katakana.svg';
+import waheguru from './waheguru.svg';
 import styles from './project-summary.module.css';
 
 const Model = lazy(() =>
@@ -47,7 +48,7 @@ export function ProjectSummary({
     setModelLoaded(true);
   }
 
-  function renderKatakana(device, visible) {
+  function renderWaheguru(device, visible) {
     return (
       <svg
         type="project"
@@ -56,9 +57,9 @@ export function ProjectSummary({
         style={cssProps({ opacity: svgOpacity })}
         className={styles.svg}
         data-device={device}
-        viewBox="0 0 751 136"
+        viewBox="0 0 658 230"
       >
-        <use href={`${katakana}#katakana-project`} />
+        <use href={`${waheguru}#waheguru-project`} />
       </svg>
     );
   }
@@ -103,7 +104,7 @@ export function ProjectSummary({
       <div className={styles.preview}>
         {model.type === 'laptop' && (
           <>
-            {renderKatakana('laptop', visible)}
+            {renderWaheguru('laptop', visible)}
             <div className={styles.model} data-device="laptop">
               {!modelLoaded && (
                 <Loader center className={styles.loader} data-visible={visible} />
@@ -133,7 +134,7 @@ export function ProjectSummary({
         )}
         {model.type === 'phone' && (
           <>
-            {renderKatakana('phone', visible)}
+            {renderWaheguru('phone', visible)}
             <div className={styles.model} data-device="phone">
               {!modelLoaded && (
                 <Loader center className={styles.loader} data-visible={visible} />
