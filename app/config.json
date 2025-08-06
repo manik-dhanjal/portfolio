@@ -1,15 +1,14 @@
 {
   "name": "Manik Dhanjal",
-  "role": "Software Engineer",
+  "role": "Engineer",
   "disciplines": [
     "Designer",
-    "Optimizer",
-    "Prototyper",
     "Debugger",
-    "Integrator",
     "Automator",
-    "Scaler",
-    "Refactorer"
+    "Refactorer",
+    "Integrator",
+    "Prototyper",
+    "Scaler"
   ],
   "url": "https://manikdhanjal.com",
   "email": "manikdhanjal217@gmail.com",
