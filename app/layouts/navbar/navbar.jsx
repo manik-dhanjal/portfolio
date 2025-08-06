@@ -10,9 +10,16 @@ import { cssProps, media, msToNum, numToMs } from '~/utils/style';
 import { NavToggle } from './nav-toggle';
 import { ThemeToggle } from './theme-toggle';
 import { navLinks, socialLinks } from './nav-data';
+import {
+  IoIosMail,
+  IoIosCall,
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+} from 'react-icons/io';
 import config from '~/config.json';
 import styles from './navbar.module.css';
-
+import { FaGithub, FaInstagram, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 export const Navbar = () => {
   const [current, setCurrent] = useState();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -216,7 +223,19 @@ const NavbarIcons = ({ desktop }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon className={styles.navIcon} icon={icon} />
+        {icon === 'github' ? (
+          <IoLogoGithub className={styles.navIcon} />
+        ) : icon === 'instagram' ? (
+          <IoLogoInstagram className={styles.navIcon} />
+        ) : icon === 'linkedin' ? (
+          <IoLogoLinkedin className={styles.navIcon} />
+        ) : icon === 'phone' ? (
+          <IoIosCall className={styles.navIcon} />
+        ) : icon === 'email' ? (
+          <IoIosMail className={styles.navIcon} />
+        ) : (
+          <Icon name={icon} className={styles.navIcon} />
+        )}
       </a>
     ))}
   </div>

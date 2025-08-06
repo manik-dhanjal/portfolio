@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     label: 'Skills',
-    pathname: '/uses',
+    pathname: '/skills',
   },
   {
     label: 'Contact',
@@ -21,14 +21,24 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Bluesky',
-    url: `https://bsky.app/profile/${config.bluesky}`,
-    icon: 'bluesky',
+    label: 'Call',
+    url: `tel:${config.phone}`,
+    icon: 'phone',
   },
   {
-    label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
+    label: 'Email',
+    url: `mailto:${config.email}`,
+    icon: 'email',
+  },
+  {
+    label: 'Instagram',
+    url: `https://www.instagram.com/${config.instagram}`,
+    icon: 'instagram',
+  },
+  {
+    label: 'LinkedIn',
+    url: `https://www.linkedin.com/in/${config.linkedin}`,
+    icon: 'linkedin',
   },
   {
     label: 'Github',

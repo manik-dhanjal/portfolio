@@ -113,7 +113,7 @@ export const Home = () => {
         title="Dr. Shalini Narayanan's Portfolio"
         description="Design and development of a portfolio website for Dr. Shalini Narayanan, a former Indian Information Service officer."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://shalininarayanan.in"
         model={{
           type: 'laptop',
           alt: 'Dr. Shalini Narayanan’s portfolio website',
@@ -134,7 +134,7 @@ export const Home = () => {
         title="Meswak Survey App"
         description="A role-based survey app for collecting customer feedback. Surveyors login to conduct surveys; admins manage data and download CSV reports. Includes surveyor registration for easy field management."
         buttonText="Download app"
-        buttonLink="https://gamestack.manik-dhanjal.com"
+        buttonLink="https://www.dropbox.com/scl/fi/hl29q2mzrucroufc7fmeb/meswak.apk?rlkey=l0peotqyp1wgikzc9oq2dzbkv&st=pt627veg&dl=0"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -158,7 +158,7 @@ export const Home = () => {
         title="Thinkinghatzzz"
         description="A modern, responsive portfolio website for ThinkingHatzz built with WordPress and Elementor, enabling easy content updates and effectively showcasing the agency’s services and clients."
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://thinkinghatzzz.com"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',

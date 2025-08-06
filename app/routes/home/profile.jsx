@@ -28,7 +28,8 @@ const ProfileText = ({ visible, titleId }) => (
       collect valuable insights, and grow their presence online. Whether it’s a product
       feedback app or a high-impact portfolio site, I focus on delivering clean, modern,
       and easy-to-manage solutions tailored to non-technical teams. If you’re interested
-      in the tools and technology I use check out my <Link href="/uses">uses page</Link>.
+      in the tools and technology I use check out my{' '}
+      <Link href="/skills">skills page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to pamper my bike, go for long rides, and tinker around new

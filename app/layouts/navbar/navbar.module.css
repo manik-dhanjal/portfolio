@@ -142,6 +142,7 @@
   .navIcon {
     fill: currentColor;
     transition: fill var(--durationM) ease;
+    font-size: var(--spaceL);
   }
 
   .mobileNav {
